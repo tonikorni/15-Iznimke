@@ -8,7 +8,7 @@ namespace Vsite.CSharp
 		public static bool Dodaj1(ref int broj)
 		{
 			++broj;
-			return broj % 100 != 0;
+			return broj % 100 !=  0;
 		}
 
 		public static void Dodaj1Iznimno(ref int broj)
